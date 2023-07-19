@@ -1,0 +1,366 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Castoro:ital@0;1&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Bruno Ace SC", sans-serif;
+  line-height: 1.5;
+  background: #000000;
+  color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.h1 {
+  font-size: 128px;
+  color: #00ffa3;
+}
+
+.h2 {
+  font-size: 64px;
+}
+
+.fs-1 {
+  font-size: 32px;
+}
+
+.fs-2 {
+  font-size: 24px;
+}
+
+.fs-3 {
+  font-size: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-white {
+  background: #ffffff;
+}
+
+.text-dark {
+  color: #15161d;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-self-end {
+  align-self: end;
+}
+
+.align-self-start {
+  align-self: start;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.p-16 {
+  padding: 16px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.py-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.py-72 {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.py-96 {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.py-160 {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.ms-4 {
+  margin-left: 4px;
+}
+
+.me-16 {
+  margin-right: 16px;
+}
+
+.me-24 {
+  margin-right: 24px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-28 {
+  margin-bottom: 28px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mb-36 {
+  margin-bottom: 36px;
+}
+
+.ms-auto {
+  margin-left: auto;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-24 {
+  gap: 24px;
+}
+
+.link-light-1 {
+  color: #d1d1d1;
+}
+.link-light-1:hover {
+  color: #9e9e9e;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 32px;
+}
+
+.btn-white {
+  background: #ffffff;
+  color: #000000;
+}
+.btn-white:hover {
+  background: #cccccc;
+}
+
+.btn-black {
+  background: #000000;
+  color: #ffffff;
+}
+.btn-black:hover {
+  background: #333333;
+}
+
+.introduction {
+  background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
+}
+.introduction-text {
+  max-width: 526px;
+}
+.introduction-img {
+  max-width: 746px;
+}
+
+.about-list {
+  max-width: 636px;
+}
+.about-list li {
+  width: calc(50% - 12px);
+  border: 1px solid #e3e3e3;
+}
+.about-text {
+  max-width: 526px;
+}
+
+.contact {
+  background: linear-gradient(to bottom, rgb(5, 0, 20), rgba(1, 2, 30, 0.89));
+}
+.contact-social li {
+  border-radius: 40px;
+}
+.contact-social li:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 0 16px 3px rgba(144, 148, 255, 0.9);
+}
+
+.project-title {
+  max-width: 746px;
+}/*# sourceMappingURL=main.css.map */

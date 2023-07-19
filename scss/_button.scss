@@ -1,0 +1,19 @@
+.btn {
+  padding: 12px 24px;
+  border-radius: 32px;
+}
+
+.btn-white {
+  background: $white;
+  color: $black;
+  &:hover {
+    background: darken($white, 20%);
+  }
+}
+.btn-black {
+  background: $black;
+  color: $white;
+  &:hover {
+    background: lighten($black, 20%);
+  }
+}

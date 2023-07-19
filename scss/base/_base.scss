@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Castoro:ital@0;1&display=swap");
+body {
+  font-family: "Bruno Ace SC", sans-serif;
+  line-height: 1.5;
+  background: $black;
+  color: $white;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}

@@ -198,6 +198,10 @@ a {
   color: #000000;
 }
 
+.text-light {
+  color: #d1d1d1;
+}
+
 .d-flex {
   display: flex;
 }
@@ -232,10 +236,6 @@ a {
 
 .pt-40 {
   padding-top: 40px;
-}
-
-.pb-20 {
-  padding-bottom: 20px;
 }
 
 .py-40 {
@@ -346,6 +346,7 @@ a {
 .about-list li {
   width: calc(50% - 12px);
   border: 1px solid #e3e3e3;
+  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.08);
 }
 .about-text {
   max-width: 526px;

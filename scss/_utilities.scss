@@ -27,6 +27,9 @@
 .text-black {
   color: $black;
 }
+.text-light {
+  color: $light-1;
+}
 
 .d-flex {
   display: flex;
@@ -55,9 +58,6 @@
 }
 .pt-40 {
   padding-top: 40px;
-}
-.pb-20 {
-  padding-bottom: 20px;
 }
 .py-40 {
   padding-top: 40px;
